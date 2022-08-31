@@ -55,4 +55,25 @@ class Exam {
 
 }
 
-console.log(new Exam('English', 'Bangla', 'Math').perSubjectDay(10,10))
+// console.log(new Exam('English', 'Bangla', 'Math').perSubjectDay(10,10))
+
+const laptop = {ram:'4gb', screen:15, ssd: 120, battary:'400am'}
+const keys = Object.keys(laptop);
+const values = Object.values(laptop);
+// Object.seal(laptop)
+Object.freeze(laptop)
+delete laptop.ram
+// console.log(laptop)
+
+
+
+// LoopObject
+
+// for in Loop
+
+const mouse = {name:'gaming', light:'red', cable:true};
+
+for(const key in mouse){
+    console.log(key)
+}
+
